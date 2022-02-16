@@ -11,5 +11,5 @@ Thought.collection.insertMany(thoughts);
 
 console.table(users);
 console.table(thoughts);
-console.info('Seeding complete! 🌱');
+console.info('Seeded database');
 process.exit(0);

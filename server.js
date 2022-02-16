@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// app.use(require('routes'));
+app.use(require('./routes'));
 
 mongoose.connect('mongodb://localhost/social-network-api', {
     useNewUrlParser: true,

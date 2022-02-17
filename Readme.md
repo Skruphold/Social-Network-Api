@@ -27,15 +27,15 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 
 
 ## Usage
-- Visit the Link below then just sign-up and start posting. 
-- [tech blog link](https://floating-beyond-04217.herokuapp.com/)
+- Clone this repository
+- Then run nodemon server.js
+- open Insomnia and start testing the routes.
 
 
 ## features
 - Express for building the server
 - moment for creation date and time.
 - mongoose to make mongo more strict. 
-- MongoDb for the database.
 
 ## Questions
 ### Username
